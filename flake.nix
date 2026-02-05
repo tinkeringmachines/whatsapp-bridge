@@ -17,7 +17,7 @@
             version = "1.0.0";
             src = ./.;
 
-            npmDepsHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+            npmDepsHash = "sha256-7cto/nT28rWLB8UatRGAjZjIfrW7K8afICcy1Q10ceo=";
 
             nativeBuildInputs = with pkgs; [
               python3
