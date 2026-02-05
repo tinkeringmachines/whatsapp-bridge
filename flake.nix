@@ -22,6 +22,7 @@
             nativeBuildInputs = with pkgs; [
               python3
               pkg-config
+              nodePackages.node-gyp
             ];
 
             buildInputs = with pkgs; [
@@ -29,6 +30,7 @@
               sqlite
             ];
 
+            makeCacheWritable = true;
             dontNpmBuild = true;
 
             installPhase = ''
